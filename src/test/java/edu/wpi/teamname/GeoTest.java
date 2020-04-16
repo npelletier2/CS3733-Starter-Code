@@ -18,14 +18,14 @@ public class GeoTest {
   }
 
   @Test
-  public void testCircleArea(){
+  public void testCircleArea() {
     Circle circ = new Circle(3);
-    assertEquals(3*3*Math.PI, circ.getArea());
+    assertEquals(3 * 3 * Math.PI, circ.getArea());
   }
 
   @Test
-  public void testCirclePerimeter(){
+  public void testCirclePerimeter() {
     Circle circ = new Circle(3);
-    assertEquals(6*Math.PI, circ.getPerimeter());
+    assertEquals(6 * Math.PI, circ.getPerimeter());
   }
 }
